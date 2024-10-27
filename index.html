@@ -11,7 +11,7 @@
   <div class="banner">
    <h1> Digital gallery of interior design content</h1>
      <p>A place where you can find inspiration for your future house !</p>
-         <a href="https://www.roche-bobois.com/fr-FR/?utm_source=google&utm_medium=cpc&utm_campaign=RBFR_Marque&utm_term=roche%20bobois&utm_content=textlink&gad_source=1&gclid=Cj0KCQjwpvK4BhDUARIsADHt9sSQYxE1hIukHxIbff1fCdKsyYzDKGMfyuodPC1lKWJFS2Ti84i1zBMaAkVIEALw_wcB" class="btn-white">Rochebobois</a>
+         <!-- <a href="https://www.roche-bobois.com/fr-FR/?utm_source=google&utm_medium=cpc&utm_campaign=RBFR_Marque&utm_term=roche%20bobois&utm_content=textlink&gad_source=1&gclid=Cj0KCQjwpvK4BhDUARIsADHt9sSQYxE1hIukHxIbff1fCdKsyYzDKGMfyuodPC1lKWJFS2Ti84i1zBMaAkVIEALw_wcB" class="btn-white">Rochebobois</a> -->
       </div>
      
      <div class="components">
@@ -33,17 +33,19 @@
          <h3> Gallery of London </h3> 
        </div>
     </div>
+    <div>
+      <script>
+    const typeformButton = document.getElementById('typeform-button');
+    typeformButton.addEventListener('click', function () {
+        window.typeformEmbed.makePopup('https://p86c8j9sq4d.typeform.com/to/q5IPuzJn', {
+            mode: 'popup',
+            hideHeaders: true,
+            hideFooters: true
+        }).open();
+    });
+     </script>
 
-        <div>
-         <script>
-           const typeformButton = document.getElementById('typeform-button');
-              typeformButton.addEventListener('click', function () {
-                window.typeformEmbed.makePopup('https://p86c8j9sq4d.typeform.com/to/q5IPuzJn', {
-                 mode: 'popup',
-                  hideHeaders: true,
-                 hideFooters: true
-               }).open();
-               });
-         </script>
-        </div>
+    </div>
+
+   
 </body>
