@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://embed.typeform.com/embed.js"></script>
+
 </head>
 
 <body>
@@ -34,10 +36,12 @@
        </div>
     </div>
     <div>
+      <button id="typeform-button">Open the Form</button>
+
       <script>
-    const typeformButton = document.getElementById('typeform-button');
-    typeformButton.addEventListener('click', function () {
-        window.typeformEmbed.makePopup('https://p86c8j9sq4d.typeform.com/to/q5IPuzJn', {
+           const typeformButton = document.getElementById('typeform-button');
+               typeformButton.addEventListener('click', function () {
+            window.typeformEmbed.makePopup('https://p86c8j9sq4d.typeform.com/to/q5IPuzJn', {
             mode: 'popup',
             hideHeaders: true,
             hideFooters: true
